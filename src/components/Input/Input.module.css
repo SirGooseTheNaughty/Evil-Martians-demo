@@ -16,6 +16,6 @@
     outline-color: var(--hint);
 }
 
-.input:invalid {
+.input:user-invalid {
     outline-color: var(--error);
 }
