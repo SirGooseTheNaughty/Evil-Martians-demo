@@ -1,0 +1,10 @@
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.errorMessage {
+    color: var(--error);
+    font-size: 0.875rem;
+}

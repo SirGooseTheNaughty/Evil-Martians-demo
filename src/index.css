@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Martian Grotesk';
+    src: url('./assets/fonts/MartianGrotesk-VFVF.woff2') format('woff2'),
+         url('./assets/fonts/MartianGrotesk-VFVF.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --neutral-white: white;
+    --neutral-100: #F8F9FA;
+    --neutral-200: #E9ECEF;
+    --neutral-300: #DEE2E6;
+    --neutral-400: #CED4DA;
+    --neutral-500: #ADB5BD;
+    --neutral-600: #6C757D;
+    --neutral-700: #495057;
+    --neutral-800: #343A40;
+    --neutral-900: #212529;
+    --neutral-black: black;
+
+    --hint: #10fe10;
+    --warning: #fefe10;
+    --error: #fe1010;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Martian Grotesk', sans-serif;
+    font-size: var(--base-font-size);
+    line-height: 1.2;
+    background-color: var(--neutral-white);
+    color: var(--neutral-900);
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+h1 {
+    font-size: 2.5rem;
+}

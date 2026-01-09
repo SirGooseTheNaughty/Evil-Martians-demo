@@ -1,0 +1,21 @@
+.app {
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: clamp(20rem, 40%, 40rem);
+    margin: 0 auto;
+    padding: 8rem 0;
+}
+
+.intro {
+    margin-bottom: 2rem;
+
+    h1 {
+        margin-bottom: 0.5rem;
+    }
+}

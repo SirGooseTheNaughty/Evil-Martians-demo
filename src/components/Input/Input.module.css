@@ -1,0 +1,21 @@
+.input {
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    border: 1px solid var(--neutral-300);
+    font-size: 1rem;
+    line-height: 1;
+    outline: 2px solid transparent;
+    transition: outline-color 0.25s ease-in-out;
+}
+
+.input::placeholder {
+    opacity: 0.8;
+}
+
+.input:focus {
+    outline-color: var(--hint);
+}
+
+.input:invalid {
+    outline-color: var(--error);
+}

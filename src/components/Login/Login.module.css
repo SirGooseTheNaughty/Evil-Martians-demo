@@ -1,0 +1,14 @@
+.title {
+    margin-bottom: 1rem;
+}
+
+.forgotPassword {
+    font-size: 0.75rem;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+}
+
+.errorMessage {
+    color: var(--error);
+    margin-bottom: 1rem;
+}
